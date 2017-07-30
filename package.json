@@ -1,0 +1,16 @@
+{
+  "name": "steam-workshop-crawler",
+  "version": "1.0.0",
+  "description": "Crawls the steam workshop",
+  "main": "crawl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node crawl.js"
+  },
+  "author": "Jackson Chen",
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "vo": "^4.0.2"
+  }
+}
